@@ -5,7 +5,7 @@ console.log("⪧ SPAMMER ⪦");
 client.login(process.env.TOKEN);
 
 client.on("ready", () => {
-let channel =     client.channels.get("647608113209540609")
+let channel =     client.channels.get("647859928819695657")
 setInterval(function() {
 channel.send("⨭ | Loading Credits for * ANONYMOUS. *... | ...* .جارِ تحميل الكريديتس لصالح * الغير معروف | ⨮");
 }, 30)
@@ -17,7 +17,7 @@ client.on("message", async message => {
     if (message.author.bot) return;
     if (!message.guild) return;
     if (!message.content.startsWith(prefix)) return;
-    if(!message.member.roles.has("647529309464166451")) return;
+    if(!message.member.roles.has("647608113209540609")) return;
 
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const cmd = args.shift().toLowerCase();
