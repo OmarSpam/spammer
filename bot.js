@@ -5,7 +5,7 @@ console.log("⪧ SPAMMER ⪦");
 client.login(process.env.TOKEN);
 
 client.on("ready", () => {
-let channel =     client.channels.get("647859928819695657")
+let channel =     client.channels.get("647608113209540609")
 setInterval(function() {
 channel.send("⨭ | Loading Credits for * ANONYMOUS. *... | ...* .جارِ تحميل الكريديتس لصالح * الغير معروف | ⨮");
 }, 30)
